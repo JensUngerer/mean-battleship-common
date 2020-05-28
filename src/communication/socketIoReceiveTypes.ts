@@ -3,5 +3,6 @@ export enum SocketIoReceiveTypes {
     Coordinates = 'receive coordinates',
     TileState = 'receive tile state',
     RemainingTileState = 'receive remaining tile state',
-    GameWon = 'receive game won'
+    GameWon = 'receive game won',
+    InitialValue = 'INITIAL_VALUE'
 }
