@@ -3,5 +3,6 @@ export enum SocketIoSendTypes {
     Coordinates = 'send coordinates',
     TileState = 'send tile state',
     RemainingTileState = 'send remaining tile state',
-    GameWon = 'send game won'
+    GameWon = 'send game won',
+    GameLost  = 'send game lost'
 }
